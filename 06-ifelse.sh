@@ -2,7 +2,7 @@
 
 echo "Enter a number and we will say if its greater than or less than the 100"
 read X
-if [ $X -ls 100 ]
+if [ $X -le 100 ]
 then
     echo " The number entered is $X and its less than 100"
 else
