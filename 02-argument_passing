@@ -1,0 +1,7 @@
+#!/bin/bash
+person1=$1
+person2=$2
+
+$person1:: Hi $person2 how are you.
+$person2:: Hello $person2 I am well, hope you too are fine!.
+$person1:: Yes, thank you!.
