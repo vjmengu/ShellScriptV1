@@ -13,7 +13,7 @@ USAGE(){
     exit 1
 }
 mkdir -p /home/ec2-user/shell-logs
-if [ $# lt 2 ]
+if [ $# -lt 2 ]
 then
     USAGE
 fi
