@@ -34,7 +34,7 @@ echo "script executino starts at $timestamp"
 
 FILES=$(find $SOURCE_DIR -name "*.log" -mtime +$DAYS)
 
-if [ -n $FILES ]
+if [ -n "$FILES" ]
 then
     echo " Files to zip are $FILES"
     ZIP_FILE="$Destination_DIR/app-log-$timestamp.zip"
