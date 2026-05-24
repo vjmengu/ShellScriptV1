@@ -42,7 +42,7 @@ then
     if [ -f "$ZIP_FILE" ]
     then
         echo " successfully zipped the files"
-        while -r filename
+        while read -r filename
         do 
 
         echo "deleting $filename"
